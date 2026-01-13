@@ -4,8 +4,6 @@ import { AboutUsSection } from "@/components/aboutus-section"
 import { FeaturesSection } from "@/components/features-section"
 import { CompaniesSection } from "@/components/companies-section"
 import { ServicesSection } from "@/components/services-section"
-import { StatsSection } from "@/components/stats-section"
-import { CTASection } from "@/components/cta-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { WaveShader } from "@/components/wave-shader"
@@ -22,7 +20,7 @@ export default function LaundryLandingPage() {
         <FeaturesSection />
         <ServicesSection />
         <CompaniesSection />
-        {/*<AboutUsSection />*/}
+        <AboutUsSection />
         {/*<StatsSection />*/}
         {/*<OpinionsSection />*/}
         {/*<CTASection />*/}

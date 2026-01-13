@@ -22,17 +22,17 @@ const services = [
   },
   {
     name: "Lavado de Acolchados",
-    image: "/lavado_acolchados.jpg",
+    image: "/lavado_acolchados.png",
     features: ["Limpieza profunda", "Eliminación de ácaros", "Secado especial", "Cuidado de rellenos"],
   },
   {
     name: "Lavado de Pluma",
-    image: "/lavado_pluma.jpg",
+    image: "/lavado_pluma.png",
     features: ["Tratamiento especial", "Recuperación de volumen", "Productos específicos", "Secado controlado"],
   },
   {
     name: "Lavado de Valijas",
-    image: "/lavado_valijas.jpg",
+    image: "/lavado_valijas.png",
     features: ["Limpieza interior y exterior", "Desinfección", "Renovación de aspecto", "Cuidado de materiales"],
   },
 ]
@@ -67,7 +67,6 @@ export function ServicesSection() {
           className="w-full"
         >
           <CarouselContent className="-ml-4">
-            {/* Duplicamos los items para asegurar un scroll infinito fluido si hay pocos elementos */}
             {[...services, ...services, ...services].map((service, index) => (
               <CarouselItem key={index} className="pl-4 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 min-w-[300px]">
                 <Card

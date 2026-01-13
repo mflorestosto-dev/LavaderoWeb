@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ContactModal } from "@/components/contact-modal"
+//import { ContactModal } from "@/components/contact-modal"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
@@ -45,7 +45,7 @@ export function Header() {
         </div>
       </header>
 
-      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+      {/*<ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />*/}
     </>
   )
 }

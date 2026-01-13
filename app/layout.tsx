@@ -8,26 +8,13 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FreshWave - Premium Laundry Service Delivered",
+  title: "Lavandería Lavapresto - Tu lavandería de confianza en San Miguel",
   description:
-    "Experience the future of laundry care with same-day service, eco-friendly cleaning, and doorstep delivery. Professional laundry service you can trust.",
+    "Servicio premium de lavandería, tintorería y atención a empresas. Lavado profesional con retiro y entrega a domicilio.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/icon-white.png",
+    apple: "/icon-white.png",
   },
 }
 
